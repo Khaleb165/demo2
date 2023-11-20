@@ -1,2 +1,2 @@
-int age = 20;
-print(age);
+String? name = 'Caleb';
+print(name);
