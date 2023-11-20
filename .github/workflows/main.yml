@@ -1,0 +1,11 @@
+name: demo2
+on: push
+jobs:
+  samy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: access to the repo
+        uses: actions/checkout@v3
+      - name: install dart
+        uses: dart-lang/setup-dart@v1
+        
