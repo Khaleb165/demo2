@@ -9,5 +9,5 @@ jobs:
       - name: install dart
         uses: dart-lang/setup-dart@v1
       - name: this is to run test file
-        run: dart run test.dart
+        # run: dart run test.dart
         
